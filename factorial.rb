@@ -1,9 +1,9 @@
 def factorial(n)
-  result = 1
+  result = 1   #Holds the product
   value = 1..n
 
   for i in value
-   result *= i
+   result *= i   
   end
   return result
 end
