@@ -3,7 +3,7 @@ empty_hash = { }  # storing hash values
 
 arr.each do |i|
   a = i.size
-  empty_array[i] = a
+  empty_hash[i] = a
 end
 
-puts empty_array
+puts empty_hash
